@@ -1,28 +1,24 @@
 {
   "name": "tic-tac-toe",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@vueuse/components": "^10.6.1",
-    "consola": "^3.2.3",
-    "core-js": "^3.25.3",
-    "nuxt": "^2.15.8",
-    "vue": "^2.7.10",
-    "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10",
-    "webpack": "^5.89.0"
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "@vueuse/core": "^10.6.1",
-    "@vueuse/nuxt": "^10.6.1",
-    "nuxt-vite": "^0.3.5",
-    "postcss": "^8.4.17"
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
   }
 }
